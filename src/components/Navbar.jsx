@@ -72,7 +72,7 @@ const Navbar = () => {
   return (
     <div className=" w-full h-20 flex justify-between items-center bg-gradient-to-r from-black to-gray-800 fixed">
       <div>
-        <h1 className="font-signature text-5xl ml-2 text-white capitalize">
+        <h1 className="font-signature text-5xl ml-2 text-white capitalize hover:text-gray-700 hover:scale-110 duration-500 cursor-pointer">
           Ashish
         </h1>
       </div>
