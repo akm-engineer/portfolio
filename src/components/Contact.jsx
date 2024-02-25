@@ -19,7 +19,7 @@ const Contact = () => {
           <div>
             <a
               href="tel:+919309518109"
-              className="flex justify-center items-center gap-2 text-gray-400 "
+              className="flex justify-center items-center gap-2 text-gray-400 hover:scale-110 duration-300"
             >
               <span className="text-white">
                 <FaPhone />
@@ -30,7 +30,7 @@ const Contact = () => {
           <div>
             <a
               href="mailto:ashishgk1999@gmail.com"
-              className="flex justify-center items-center gap-2 text-gray-400"
+              className="flex justify-center items-center gap-2 text-gray-400 hover:scale-110 duration-300"
             >
               <span className="text-white">
                 <SiGmail />
