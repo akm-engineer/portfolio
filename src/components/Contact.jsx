@@ -15,11 +15,11 @@ const Contact = () => {
           </p>
           <p className="py-6">Submit the form below to get in touch with me.</p>
         </div>
-        <div className="flex flex-col sm:flex-row justify-center  pb-2 gap-0 sm:gap-10 items-center">
+        <div className="flex flex-col sm:flex-row justify-center  pb-5 gap-0 sm:gap-10 items-center">
           <div>
             <a
               href="tel:+919309518109"
-              className="flex justify-center items-center gap-2 text-gray-400"
+              className="flex justify-center items-center gap-2 text-gray-400 "
             >
               <span className="text-white">
                 <FaPhone />
@@ -49,7 +49,7 @@ const Contact = () => {
               type="text"
               placeholder="Enter your Name"
               name="name"
-              className="p-2 focus:outline-none bg-transparent border-2 rounded-md text-white"
+              className="p-2  focus:outline-none bg-transparent border-2 rounded-md text-white"
             />
             <input
               type="email"
