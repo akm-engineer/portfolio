@@ -40,10 +40,7 @@ const Home = () => {
               web development a laugh riot. So, grab your code editor and join
               the fun - let's turn pixels into party animals! 🎉
             </p>
-            <p>
-              This paragraph and any other content below remains unaffected by
-              the text animation.
-            </p>
+
             <div>
               <Link
                 to="portfolio"
