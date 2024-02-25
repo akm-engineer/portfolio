@@ -14,7 +14,7 @@ const Home = () => {
           <h2 className="text-4xl sm:text-7xl font-bold">
             I'm a Full Stack Developer
           </h2>
-          <p className="text-gray-500 max-w-md py-4">
+          <p className="text-gray-400 max-w-md py-4">
             Welcome to our MERN Stack Shindig! 🚀 Where MongoDB, Express.js,
             React.js, and Node.js come together for a digital fiesta! From
             MongoDB merriment to React.js razzle-dazzle, we're here to make web

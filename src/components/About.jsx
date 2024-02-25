@@ -13,7 +13,7 @@ const About = () => {
         <h2 className="text-3xl font-bold text-center mb-4 text-white">
           About Me
         </h2>
-        <p className="text-lg text-gray-600 text-center mb-6">
+        <p className="text-lg text-gray-400 text-center mb-6">
           Welcome to my corner of the digital realm! I'm a MERN Stack aficionado
           with a penchant for adventure and a love for all things code. When I'm
           not immersed in the world of web development, you'll often find me
@@ -31,7 +31,7 @@ const About = () => {
             <h3 className="text-2xl font-bold mb-2 mt-4 md:mt-0 text-center md:text-left text-white">
               Trekking
             </h3>
-            <p className="text-lg text-gray-600 text-center md:text-left">
+            <p className="text-lg text-gray-400 text-center md:text-left">
               Strap on your boots and join me as we traverse rugged terrains and
               conquer majestic peaks! Trekking isn't just a hobby for me - it's
               a way of life. Whether I'm exploring lush forests or scaling
@@ -52,7 +52,7 @@ const About = () => {
             <h3 className="text-2xl font-bold mb-2 mt-4 md:mt-0 text-center md:text-left text-white">
               Kabaddi and Handball
             </h3>
-            <p className="text-lg text-gray-600 text-center md:text-left">
+            <p className="text-lg text-gray-400 text-center md:text-left">
               Game on! When I'm not coding, I'm channeling my competitive spirit
               on the kabaddi and handball courts. From intense showdowns to
               strategic maneuvers, these sports fuel my passion for teamwork,
@@ -72,7 +72,7 @@ const About = () => {
             <h3 className="text-2xl font-bold mb-2 mt-4 md:mt-0 text-center md:text-left text-white">
               Running
             </h3>
-            <p className="text-lg text-gray-600 text-center md:text-left ">
+            <p className="text-lg text-gray-400 text-center md:text-left ">
               Pounding pavements, chasing dreams! Lace up your shoes and hit the
               ground running with me. Whether it's a leisurely jog through city
               streets or a challenging trail run in the wilderness, every step

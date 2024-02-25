@@ -1,4 +1,6 @@
 import React from "react";
+import { FaPhone } from "react-icons/fa";
+import { SiGmail } from "react-icons/si";
 
 const Contact = () => {
   return (
@@ -13,11 +15,35 @@ const Contact = () => {
           </p>
           <p className="py-6">Submit the form below to get in touch with me.</p>
         </div>
+        <div className="flex flex-col sm:flex-row justify-center  pb-2 gap-0 sm:gap-10 items-center">
+          <div>
+            <a
+              href="tel:+919309518109"
+              className="flex justify-center items-center gap-2 text-gray-400"
+            >
+              <span className="text-white">
+                <FaPhone />
+              </span>{" "}
+              +91-93095-18109
+            </a>
+          </div>
+          <div>
+            <a
+              href="mailto:ashishgk1999@gmail.com"
+              className="flex justify-center items-center gap-2 text-gray-400"
+            >
+              <span className="text-white">
+                <SiGmail />
+              </span>{" "}
+              ashishgk1999@gmail.com
+            </a>
+          </div>
+        </div>
         <div className="flex flex-col justify-center items-center">
           <form
             action="https://getform.io/f/wdLQMpej"
             method="POST"
-            className="flex flex-col w-full md:w-1/2"
+            className="flex flex-col w-full md:w-1/2 "
           >
             <input
               type="text"
