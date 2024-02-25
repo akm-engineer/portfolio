@@ -1,6 +1,9 @@
 import React, { useState } from "react";
 import { FaBars, FaTimes } from "react-icons/fa";
 import { Link } from "react-scroll";
+import { FaGithub, FaLinkedin } from "react-icons/fa";
+import { HiOutlineMail } from "react-icons/hi";
+import { BsFillPersonLinesFill } from "react-icons/bs";
 
 const link = [
   {
@@ -22,6 +25,46 @@ const link = [
   {
     id: 5,
     item: "contact",
+  },
+];
+const socialLinks = [
+  {
+    id: 1,
+    child: (
+      <>
+        <FaLinkedin size={50} />
+      </>
+    ),
+    href: "https://www.linkedin.com/in/work-ashish/",
+  },
+  {
+    id: 2,
+    child: (
+      <>
+        <FaGithub size={50} />
+      </>
+    ),
+    href: "https://github.com/akm-engineer",
+  },
+  {
+    id: 3,
+    child: (
+      <>
+        <HiOutlineMail size={50} />
+      </>
+    ),
+    href: "mailto:ashishgk1999@gmail.com",
+  },
+  {
+    id: 4,
+    child: (
+      <>
+        <BsFillPersonLinesFill size={50} />
+      </>
+    ),
+    href: "/Ashish_Kumar_Mishra_Resume.pdf",
+
+    download: true,
   },
 ];
 const Navbar = () => {
@@ -68,6 +111,23 @@ const Navbar = () => {
               </Link>
             </li>
           ))}
+          <li>
+            <ul className="flex flex-row justify-around px-4 mt-4">
+              {socialLinks.map(({ id, child, href, download }) => (
+                <li key={id} className={"flex flex-row  items-center px-6    "}>
+                  <a
+                    href={href}
+                    download={download}
+                    className="text-gray-300"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    {child}
+                  </a>
+                </li>
+              ))}
+            </ul>
+          </li>
         </ul>
       )}
     </div>
