@@ -5,7 +5,7 @@ import tailwind from "../assets/experience/tailwind.png";
 import react from "../assets/experience/react.png";
 
 import firebaseImg from "../assets/experience/firebase.png";
-import github from "../assets/experience/github.jpg";
+import github from "../assets/experience/github.png";
 import javascript from "../assets/experience/js.png";
 import mongodb from "../assets/experience/mongodb.png";
 import nodejs from "../assets/experience/node.png";
