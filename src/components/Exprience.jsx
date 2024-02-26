@@ -28,7 +28,7 @@ const Exprience = () => {
       id: 3,
       src: tailwind,
       title: "Tailwind CSS",
-      style: "shadow-blue-300",
+      style: "shadow-blue-300 ",
     },
     {
       id: 4,
@@ -88,7 +88,7 @@ const Exprience = () => {
               key={id}
               className={`shadow-md rounded-lg hover:scale-95 duration-500 py-2 ${style}`}
             >
-              <img src={src} alt="" className="w-20 mx-auto h-20 " />
+              <img src={src} alt="" className="w-25 mx-auto h-20 " />
               <p className="mt-4">{title}</p>
             </div>
           ))}
